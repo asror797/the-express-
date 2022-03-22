@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.container {
+   max-width: 1225px;
+   margin: 0 auto;
+}
+
+html , body {
+   height: 100%;
+   scroll-behavior: smooth;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   width: 100%;
+   flex: 1 0 auto;
+   background-color: #171717;
+}
+
+.footer {
+   flex-shrink: 0;
+   background-color: #2e2e2e;
+}
+
+
+.scroll {
+   background-color: #171717ea;
+   border-bottom: 1px solid rgb(73, 70, 70);
+}
+
+
+::placeholder {
+   color: white;
+   opacity: 1; /* Firefox */
+ }
+ 
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+ }
+ 
+ ::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+ }
+
+ .brand_text {
+    color: white;
+ }
+
+
+
+
+

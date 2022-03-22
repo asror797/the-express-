@@ -1,0 +1,134 @@
+.footer {
+   width: 100%;
+   .footer__itm {
+      width: 100%;
+      display: flex;
+      padding: 25px 0;
+      .left__footer {
+         width: 435px;
+         margin-right: 55px;
+         img {
+            margin-bottom: 25px;
+         }
+         p {
+            color: rgb(122, 118, 118);
+            font-family: 'Poppins',sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            margin-bottom: 35px;
+         }
+         .footer__list {
+            width: 100%;
+            li {
+               padding: 13px 0;
+               display: flex;
+               border-bottom: 1px solid rgb(155, 154, 154);
+               .listName {
+                  width: 115px;
+                  color: white;
+                  font-family: 'Poppins',sans-serif;
+                  font-size: 15px;
+               }
+               .listData {
+                  color: white;
+                  padding-left: 13px;
+                  font-family: 'Poppins',sans-serif;
+                  font-weight: 400;
+               }
+            }
+         }
+      }
+      .form {
+         width: 415px;
+         display: flex;
+         margin-right: 35px;
+         flex-direction: column;
+         .inputName {
+            background-color:#4a4a4a;
+            padding: 9px;
+            border: none;
+            font-size: 17px;
+            color: white;
+            margin-bottom: 15px;
+            &:focus {
+               outline: none;
+            }
+         }
+         .inputEmail {
+            background-color: #4a4a4a;
+            color: white;
+            font-size: 17px;
+            padding: 9px;
+            border: none;
+            margin-bottom: 15px;
+            &:focus {
+               outline: none;
+            }
+         }
+         .inputMessage {
+            background-color: #4a4a4a;
+            color: white;
+            font-size: 17px;
+            border: none;
+            padding: 9px;
+            margin-bottom: 15px;
+            &:focus {
+               outline: none;
+            }
+         }
+         .submit {
+            background-color: #2e2e2e;
+            border: 2px solid #1877f2;
+            color: white;
+            font-family: 'Poppins',sans-serif;
+            padding: 9px 0;
+            transition: 0.4s ease;
+            &:hover {
+               cursor: pointer;
+               background-color: #1877f2;
+            }
+         }
+
+
+      }
+      .socials {
+         list-style: none;
+         padding-top: 23px;
+         display: flex;
+         justify-content: space-between;
+         li {
+            margin: 0 13px;
+         }
+      }
+   }
+}
+
+
+@media (max-width:415px) {
+   .footer {
+      width: 100%;
+      .container {
+         max-width: 415px;
+         margin: 0 auto;
+         .footer__itm {
+            width: 100%;
+            padding: 25px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         .left__footer {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 25px;
+         }
+
+         .form {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 21px;
+            
+         }
+      }
+   }
+}

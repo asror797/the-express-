@@ -1,0 +1,86 @@
+.team {
+   width: 100%;
+   margin-bottom: 135px;
+   padding: 35px 0;
+   .team__itm {
+      width: 100%;
+      .team__heading {
+         font-size: 29px;
+         padding: 19px 0;
+         margin-bottom: 25px;
+         font-family: 'Poppins',sans-serif;
+         color: white;
+         text-align: center;
+      }
+      .team__list {
+         width: 100%;
+         list-style: none;
+         display: flex;
+         justify-content: space-between;
+         li {
+            width: 24%;
+            padding: 15px 0;
+            border: 1px solid #454545;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: 0.4s ease;
+            .line {
+               width: 75px;
+               border-bottom: 2px solid #1877f2;
+               margin-bottom: 19px;
+            }
+            img {
+               width: 155px;
+               border-radius: 50%;
+               margin-bottom: 25px;
+            }
+            .username {
+               color: white;
+               font-family: 'Poppins',sans-serif;
+               font-size: 21px;
+               font-weight: 400;
+               margin-bottom: 13px;
+            }
+            .job__title {
+               color: white;
+               font-family: 'Poppins',sans-serif;
+               font-size: 17px;
+               color: rgb(71, 68, 68);
+            }
+            &:hover {
+               border: 1px solid rgb(139, 135, 135);
+            }
+         }
+
+         // .team-user {
+         //    margin-right: 19px;
+         // }
+      }
+   }
+}
+
+@media (max-width:415px) {
+   .team {
+      width: 100%;
+      padding: 0 17px;
+      .container {
+         max-width: 415px;
+         margin: 0 auto;
+         .team__itm {
+            width: 100%;
+            .team__list {
+               width: 100%;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               li {
+                  width: 100%;
+                  margin-bottom: 27px;
+               }
+            }
+         }
+      }
+   }
+}
